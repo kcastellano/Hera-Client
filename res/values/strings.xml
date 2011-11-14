@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Main!</string>
+	<string name="app_name">Hera</string>
+	<string-array name="form_array">
+		<item>Regular</item>
+		<item>Irregular</item>
+	</string-array>
+	<string-array name="location_array">
+		<item>Intrauterina</item>
+		<item>Extrauterina</item>
+	</string-array>
+	<string-array name="border_array">
+		<item>Regular</item>
+		<item>Irregular</item>
+	</string-array>
+	<string-array name="presencia_array">
+		<item>Si</item>
+		<item>No</item>
+	</string-array>
+	<string-array name="visible_array">
+		<item>Si</item>
+		<item>No</item>
+	</string-array>
+	<string-array name="actividad_array">
+		<item>Si</item>
+		<item>No</item>
+	</string-array>
+	<string-array name="ductus_array">
+		<item>Normal</item>
+		<item>Reverso</item>
+	</string-array>
+	<string-array name="hueso_array">
+		<item>Presente</item>
+		<item>Ausente</item>
+	</string-array>
+	<string-array name="tricuspidea_array">
+		<item>Normal</item>
+		<item>Anormal</item>
+	</string-array>
+	<string-array name="presentacion_array">
+		<item>Cefalica</item>
+		<item>Podalica</item>
+	</string-array>
+	<string-array name="situacion_array">
+		<item>Longitudinal</item>
+		<item>Transversa</item>
+	</string-array>
+	<string-array name="posicion_array">
+		<item>Anterior</item>
+		<item>Posterior</item>
+	</string-array>
+	<string-array name="estomago_array">
+		<item>Visible</item>
+		<item>No visible</item>
+	</string-array>
+	<string-array name="vejiga_array">
+		<item>Visible</item>
+		<item>No visible</item>
+	</string-array>
+	<string-array name="rinones_array">
+		<item>Visible</item>
+		<item>No visible</item>
+	</string-array>
+	<string-array name="sexo_array">
+		<item>Masculino</item>
+		<item>Femenino</item>
+	</string-array>
+	<string-array name="cordon_array">
+		<item>Tres elementos</item>
+		<item>Circular</item>
+	</string-array> 
+	<string-array name="placenta_array">
+		<item>Anterior</item>
+		<item>Posterior</item>
+		<item>Fundica</item>
+		<item>Media</item>
+		<item>Baja</item>
+		<item>Previa</item>
+	</string-array>
+	<string-array name="doctor_array">
+		<item>Si</item>
+		<item>No</item>
+	</string-array> 
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/add4" android:icon="@android:drawable/ic_menu_add"
+		android:title="Agregar estudio">
+		<menu>
+			<item android:id="@+id/primerTrimestre" android:title="Primer Trimestre" />
+			<item android:id="@+id/segundoTrimestre" android:title="Segundo Trimestre" />
+			<item android:id="@+id/tercerTrimestre" android:title="Tercer Trimestre" />
+		</menu>
+	</item>
+	<item android:id="@+id/add5" android:icon="@android:drawable/ic_menu_send"
+		android:title="Enviar expediente">
+	</item>
+	<item android:id="@+id/refresh4" android:icon="@drawable/ic_menu_refresh"
+		android:title="Refrescar" />
+</menu>

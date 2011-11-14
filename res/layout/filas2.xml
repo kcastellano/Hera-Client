@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/ListItem" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" android:orientation="horizontal"
+	android:background="#DDDDDD">
+	<TextView android:id="@+id/label" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentRight="true"
+		android:textColor="#454545" android:shadowColor="#545554" 
+		android:padding="10dp" android:textSize="12dp" android:typeface="sans" android:layout_marginRight="20dp" android:layout_centerVertical="true" />
+</RelativeLayout>

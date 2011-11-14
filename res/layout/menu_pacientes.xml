@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:gravity="top"
+	android:background="@drawable/main_background" android:layout_height="wrap_content"
+	android:layout_width="wrap_content">
+
+	<LinearLayout android:layout_height="10dp"
+		android:layout_width="fill_parent" android:background="@drawable/nav_shadow" />
+	<RelativeLayout
+	android:background="@drawable/list_header_background"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="10dp"
+		android:layout_marginRight="10dp" android:layout_marginLeft="10dp">
+	<TextView 
+		android:textColor="@color/white" android:id="@+id/textHeader"
+		android:text="Pacientes" android:textSize="20dp" 
+		android:textStyle="bold"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentLeft="true" ></TextView>
+		<TextView 
+		android:textColor="@color/white" android:id="@+id/textHeader"
+		android:text="Trimestres" android:textSize="20dp" 
+		android:textStyle="bold"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentRight="true"  ></TextView>
+		</RelativeLayout>
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:gravity="top"
+		android:layout_marginTop="53dp" android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp" android:layout_marginBottom="70dp"
+		android:layout_height="fill_parent"
+		android:background="@drawable/list_background">
+		<ListView android:id="@android:id/list" android:layout_width="fill_parent"
+			android:divider="#C0C0C0" android:dividerHeight="2px"
+			android:layout_height="wrap_content" />
+
+	</LinearLayout>
+
+	<LinearLayout android:id="@+id/footer1"
+		android:background="@drawable/borders" android:layout_height="60dp"
+		android:layout_width="fill_parent" android:layout_alignParentBottom="true">
+
+	</LinearLayout>
+
+</RelativeLayout>

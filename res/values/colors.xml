@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="custom_theme_color">#ffffff</color>
+	<color name="white">#ffffff</color>
+	<color name="gray">#666666</color>
+	<color name="lite_gray">#D8D8D8</color>
+	<color name="black">#151515</color>
+	<color name="blue">#3399cc</color>
+	<color name="yellow">#f2ec3e</color>
+	<color name="dark_gray">#262626</color>
+	<color name="text_tab_selected">#5d5d5d</color>
+	<color name="text_tab_unselected">#838183</color>
+</resources>
+

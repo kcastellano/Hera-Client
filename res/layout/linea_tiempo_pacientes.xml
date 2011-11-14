@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:gravity="top"
+	android:background="@drawable/main_background" android:layout_height="wrap_content"
+	android:layout_width="wrap_content">
+
+	<LinearLayout android:layout_height="10dp"
+		android:layout_width="fill_parent" android:background="@drawable/nav_shadow" />
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginTop="10dp"
+		android:layout_marginRight="10dp" android:layout_marginLeft="10dp"
+		android:background="@drawable/list_header_background">
+		<TextView android:textColor="@color/white" android:id="@+id/patientTimeline"
+			android:text="Pacientes" android:textSize="20dp" android:textStyle="bold"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"></TextView>
+
+		<!-- android:background="@drawable/list_header_background" android:background="@drawable/list_background" -->
+	</RelativeLayout>
+	<LinearLayout android:orientation="vertical"
+		android:background="@drawable/view_background"
+		android:layout_width="fill_parent" android:gravity="top"
+		android:layout_marginTop="53dp" android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp" android:layout_marginBottom="70dp"
+		android:layout_height="fill_parent">
+		<TabHost
+			android:id="@android:id/tabhost" android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			<LinearLayout android:orientation="vertical"
+				android:layout_width="fill_parent" android:layout_height="fill_parent">
+				<TabWidget android:id="@android:id/tabs"
+					android:layout_width="fill_parent" android:layout_height="wrap_content" 
+					android:tabStripEnabled="false"/>
+				<FrameLayout android:id="@android:id/tabcontent"
+					android:layout_width="fill_parent" android:layout_height="fill_parent" />
+			</LinearLayout>
+		</TabHost>
+
+	</LinearLayout>
+
+	<LinearLayout android:id="@+id/footer2"
+		android:background="@drawable/borders" android:layout_height="60dp"
+		android:layout_width="fill_parent" android:layout_alignParentBottom="true">
+
+	</LinearLayout>
+
+</RelativeLayout>

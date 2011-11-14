@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/eco" android:icon="@android:drawable/ic_menu_agenda"
+		android:title="Ver ecosonogramas" />
+	<item android:id="@+id/see_profile" android:icon="@drawable/user"
+		android:title="Ver perfil" />
+	<item android:id="@+id/see_familiar" android:icon="@drawable/users"
+		android:title="Ver familiares" />
+</menu>

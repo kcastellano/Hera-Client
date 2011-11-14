@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:gravity="top"
+	android:background="@drawable/main_background" android:layout_height="wrap_content"
+	android:layout_width="wrap_content">
+
+	<LinearLayout android:layout_height="10dp"
+		android:layout_width="fill_parent" android:background="@drawable/nav_shadow" />
+	<RelativeLayout android:layout_width="fill_parent"
+		android:background="@drawable/list_header_background"
+		android:layout_height="wrap_content" android:layout_marginTop="10dp"
+		android:layout_marginRight="10dp" android:layout_marginLeft="10dp">
+		<TextView android:textColor="@color/white" android:id="@+id/textHeaderPerfil"
+			 android:textSize="20dp"
+			android:textStyle="bold" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_alignParentLeft="true"></TextView>
+	</RelativeLayout>
+	<RelativeLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:gravity="top"
+		android:layout_marginTop="53dp" android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp" android:layout_marginBottom="70dp"
+		android:layout_height="fill_parent" android:background="@drawable/list_background">
+		<!-- android:background="@drawable/list_background" android:background="@drawable/list_header_background" -->
+
+
+		<TextView android:textSize="20dp" android:id="@+id/cedulaPerfilText"
+			android:layout_marginRight="90dp" android:layout_alignParentLeft="true"
+			android:text="Cédula" android:textColor="#535353"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+		<TextView android:textSize="16dp" android:layout_below="@+id/cedulaPerfilText"
+			android:layout_marginRight="90dp" android:layout_alignParentLeft="true"
+			android:id="@+id/cedulaPerfil" android:textColor="#454545"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"></TextView>
+		<TextView android:textSize="20dp" android:layout_below="@+id/cedulaPerfil"
+			android:id="@+id/nombrePerfilText" android:layout_marginRight="50dp"
+			android:layout_alignParentLeft="true" android:text="Nombre"
+			android:textColor="#535353" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"></TextView>
+		<TextView android:textSize="16dp" android:layout_below="@+id/nombrePerfilText"
+			android:layout_marginRight="90dp" android:layout_alignParentLeft="true"
+			android:id="@+id/nombrePerfil" android:textColor="#454545"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"></TextView>
+		<TextView android:textSize="20dp" android:layout_below="@+id/nombrePerfil"
+			android:id="@+id/apellidoPerfilText" android:layout_marginRight="50dp"
+			android:layout_alignParentLeft="true" android:text="Apellido"
+			android:textColor="#535353" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"></TextView>
+		<TextView android:textSize="16dp" android:layout_below="@+id/apellidoPerfilText"
+			android:layout_marginRight="90dp" android:layout_alignParentLeft="true"
+			android:id="@+id/apellidoPerfil" android:textColor="#454545"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"></TextView>
+		<TextView android:textSize="20dp" android:layout_below="@+id/apellidoPerfil"
+			android:id="@+id/correoPerfilText" android:layout_marginRight="50dp"
+			android:layout_alignParentLeft="true" android:text="Correo electrónico"
+			android:textColor="#535353" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"></TextView>
+		<TextView android:textSize="16dp" android:layout_below="@+id/correoPerfilText"
+			android:layout_marginRight="90dp" android:layout_alignParentLeft="true"
+			android:id="@+id/correoPerfil" android:textColor="#454545"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"></TextView>
+		<TextView android:textSize="20dp" android:layout_below="@+id/correoPerfil"
+			android:id="@+id/rolPerfilText" android:layout_marginRight="50dp"
+			android:layout_alignParentLeft="true" android:text="Rol"
+			android:textColor="#535353" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"></TextView>
+		<TextView android:textSize="16dp" android:layout_marginRight="90dp"
+			android:layout_below="@+id/rolPerfilText" android:id="@+id/rolPerfil"
+			android:textColor="#454545" android:layout_height="fill_parent"
+			android:layout_width="match_parent"></TextView>
+
+		<ImageView android:layout_height="wrap_content"
+			android:layout_width="100dp" android:src="@drawable/icon" android:id="@+id/imageView1"
+			android:layout_alignParentRight="true"></ImageView>
+		
+
+
+	</RelativeLayout>
+
+	<LinearLayout android:background="@drawable/borders"
+		android:layout_height="60dp" android:layout_width="fill_parent"
+		android:layout_alignParentBottom="true">
+		<Button android:layout_below="@+id/rolPerfil" android:text="Editar perfil"
+			android:id="@+id/editarPerfil" android:layout_height="wrap_content"
+			android:layout_width="match_parent" android:layout_gravity="center"
+			android:layout_marginTop="5dp">
+		</Button>
+	</LinearLayout>
+
+</RelativeLayout>
+		

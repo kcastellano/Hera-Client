@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:gravity="top"
+	android:background="@drawable/main_background" android:layout_height="wrap_content"
+	android:layout_width="wrap_content">
+
+	<LinearLayout android:layout_height="10dp"
+		android:layout_width="fill_parent" android:background="@drawable/nav_shadow" />
+	<RelativeLayout android:layout_width="fill_parent"
+		android:background="@drawable/list_header_background"
+		android:layout_height="wrap_content" android:layout_marginTop="10dp"
+		android:layout_marginRight="10dp" android:layout_marginLeft="10dp">
+		<TextView android:textColor="@color/white" android:id="@+id/textHeader"
+			android:text="Mediciones del segundo trimestre" android:textSize="20dp"
+			android:textStyle="bold" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_alignParentLeft="true"></TextView>
+	</RelativeLayout>
+	<ScrollView android:layout_width="fill_parent"
+		android:background="@drawable/list_background" android:layout_height="fill_parent"
+		android:layout_marginTop="53dp" android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp" android:layout_marginBottom="70dp">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:gravity="top"
+			android:layout_height="fill_parent">
+			<TextView android:text="Presentacion del bebé" android:id="@+id/textView3"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#000000" android:layout_marginTop="10dp"></TextView>
+			<Spinner android:layout_height="wrap_content"
+				android:layout_width="match_parent" android:id="@+id/presentacion"></Spinner>
+			<TextView android:text="Situacion del bebé"
+				android:id="@+id/textView4" android:layout_width="wrap_content"
+				android:textColor="#000000" android:layout_height="wrap_content"></TextView>
+			<Spinner android:layout_height="wrap_content"
+				android:layout_width="match_parent" android:id="@+id/situacion"></Spinner>
+			<TextView android:text="Posición del bebé" android:id="@+id/textView4"
+				android:textColor="#000000" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></TextView>
+			<Spinner android:layout_height="wrap_content"
+				android:layout_width="match_parent" android:id="@+id/posicion"></Spinner>
+			<TextView android:text="Estómago" android:id="@+id/textView3"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#000000" android:layout_marginTop="5dp"></TextView>
+			<Spinner android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:id="@+id/estomago"></Spinner>
+			<TextView android:text="Vejiga" android:id="@+id/textView3"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#000000"></TextView>
+			<Spinner android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:id="@+id/vejiga"></Spinner>
+			<TextView android:text="Riñones" android:id="@+id/textView1"
+				android:textColor="#000000" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></TextView>
+			<Spinner android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:id="@+id/rinones"></Spinner>
+			<TextView android:text="Sexo" android:id="@+id/textView2"
+				android:textColor="#000000" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></TextView>
+			<Spinner android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:id="@+id/sexo"></Spinner>
+			<TextView android:text="Cordón umbilical" android:id="@+id/textView5"
+				android:textColor="#000000" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></TextView>
+			<Spinner android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:id="@+id/cordon"></Spinner>
+			<TextView android:text="Placenta" android:id="@+id/textView7"
+				android:textColor="#000000" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></TextView>
+			<Spinner android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:id="@+id/placenta"></Spinner>
+			<Button android:text="Adjuntar archivo" android:id="@+id/file"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:layout_gravity="center" android:layout_marginTop="5dp">
+			</Button>
+			<Button android:text="Enviar datos" android:id="@+id/enviar"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:layout_gravity="center" android:layout_marginTop="5dp">
+			</Button>
+		</LinearLayout>
+	</ScrollView>
+
+
+	<LinearLayout android:id="@+id/footer1"
+		android:background="@drawable/borders" android:layout_height="60dp"
+		android:layout_width="fill_parent" android:layout_alignParentBottom="true">
+
+	</LinearLayout>
+
+</RelativeLayout>

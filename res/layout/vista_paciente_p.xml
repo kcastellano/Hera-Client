@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:gravity="top"
+	android:background="@drawable/main_background" android:layout_height="wrap_content"
+	android:layout_width="wrap_content">
+
+	<LinearLayout android:layout_height="10dp"
+		android:layout_width="fill_parent" android:background="@drawable/nav_shadow" />
+	<RelativeLayout android:background="@drawable/list_header_background"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+		android:layout_marginLeft="10dp">
+		<TextView android:textColor="@color/white" android:id="@+id/vistaHeader"
+			android:text="" android:textSize="20dp" android:textStyle="bold"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"></TextView>
+
+	</RelativeLayout>
+	<LinearLayout android:id="@+id/root_layout"
+		android:layout_weight="1" android:layout_width="fill_parent"
+		android:layout_marginTop="53dp" android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp" android:layout_marginBottom="70dp"
+		android:layout_height="fill_parent" android:background="@drawable/list_background"
+		android:orientation="vertical">
+		<Button android:layout_marginTop="20dp" android:id="@+id/btnMedidas"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="Medidas del ecosonograma" android:textColor="#454545" />
+		<ScrollView android:id="@+id/panelMedidas"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_weight="1">
+			<LinearLayout android:id="@+id/panelProfile1"
+				android:orientation="vertical" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_weight="1">
+				<TextView android:textStyle="bold" android:textColor="#535353"
+					android:textSize="20dp" android:text="Forma Saco gestacional" android:id="@+id/textViewPresentacion"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				<TextView android:textColor="#454545" android:text=""
+					android:id="@+id/forma_text" android:textSize="16dp"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				<TextView android:textStyle="bold" android:textColor="#535353"
+					android:textSize="20dp" android:text="Ubicación del Saco Gestacional" android:id="@+id/textViewSituacion"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				<TextView android:textColor="#454545" android:text=""
+					android:id="@+id/ubicacion1_text" android:textSize="16dp"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				<TextView android:textStyle="bold" android:textColor="#535353"
+					android:textSize="20dp" android:text="Bordes Saco Gestacional" android:id="@+id/textViewPosicion"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				<TextView android:textSize="16dp" android:textColor="#454545"
+					android:text="" android:id="@+id/bordes_text"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				<TextView android:textStyle="bold" android:textColor="#535353"
+					android:textSize="20dp" android:text="Diámetro medio saco gestacional"
+					android:id="@+id/textViewEstomago" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"></TextView>
+				<TextView android:textSize="16dp" android:textColor="#454545"
+					android:text="" android:id="@+id/diametro_text"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				<TextView android:textStyle="bold" android:textColor="#535353"
+					android:textSize="20dp" android:text="Vesicula Vitelina"
+					android:id="@+id/textViewVejiga" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"></TextView>
+				<TextView android:textSize="16dp" android:textColor="#454545"
+					android:text="" android:id="@+id/vesicula_text" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"></TextView>
+				<TextView android:textStyle="bold" android:textColor="#535353"
+					android:textSize="20dp" android:text="Embrión"
+					android:id="@+id/textViewRinones" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"></TextView>
+				<TextView android:textSize="16dp" android:textColor="#454545"
+					android:text="" android:id="@+id/embrion_text"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				<TextView android:textStyle="bold" android:textColor="#535353"
+					android:textSize="20dp" android:text="Actividad Cardíaca" android:id="@+id/textViewSexo"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				<TextView android:textSize="16dp" android:textColor="#454545"
+					android:text="" android:id="@+id/actividadc_text" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"></TextView>
+				<TextView android:textStyle="bold" android:textColor="#535353"
+					android:textSize="20dp" android:text="Traslucencia Nucal" android:id="@+id/textViewCordon"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				<TextView android:textSize="16dp" android:textColor="#454545"
+					android:text="" android:id="@+id/traslucencia_text" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"></TextView>
+				<TextView android:textStyle="bold" android:textColor="#535353"
+					android:textSize="20dp" android:text="Ductus Venoso"
+					android:id="@+id/textViewPresentacion" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"></TextView>
+				<TextView android:textSize="16dp" android:textColor="#454545"
+					android:text="" android:id="@+id/ductus_text"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				<TextView android:textStyle="bold" android:textColor="#535353"
+					android:textSize="20dp" android:text="Angulo Facial"
+					android:id="@+id/textViewDiametro" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"></TextView>
+				<TextView android:textSize="16dp" android:textColor="#454545"
+					android:text="" android:id="@+id/angulo_text" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"></TextView>
+				<TextView android:textStyle="bold" android:textColor="#535353"
+					android:textSize="20dp" android:text="Hueso Nasal"
+					android:id="@+id/textViewCC" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"></TextView>
+				<TextView android:textSize="16dp" android:textColor="#454545"
+					android:text="" android:id="@+id/hueso_text" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"></TextView>
+				<TextView android:textStyle="bold" android:textColor="#535353"
+					android:textSize="20dp" android:text="R. Tricuspidea"
+					android:id="@+id/textViewCA" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"></TextView>
+				<TextView android:textSize="16dp" android:textColor="#454545"
+					android:text="" android:id="@+id/tricuspidea_text" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"></TextView>
+				<TextView android:textStyle="bold" android:textColor="#535353"
+					android:textSize="20dp" android:text="Longitud Cráneo Caudal"
+					android:id="@+id/textViewLF" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"></TextView>
+				<TextView android:textSize="16dp" android:textColor="#454545"
+					android:text="" android:id="@+id/crl_text" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"></TextView>
+			</LinearLayout>
+		</ScrollView>
+		<Button android:layout_marginTop="10dp" android:id="@+id/btnDiagnostico"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="Diagnóstico" android:textColor="#454545" />
+		<ScrollView android:id="@+id/panelDiagnostico"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_weight="1">
+			<LinearLayout android:id="@+id/panelProfile1"
+				android:orientation="vertical" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_weight="1">
+				<TextView android:textStyle="bold" android:textColor="#535353"
+					android:textSize="20dp" android:text="Fecha de ultima regla"
+					android:id="@+id/textViewFUR" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"></TextView>
+				<TextView android:textSize="16dp" android:textColor="#454545" android:text="" android:id="@+id/fur_text"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				<TextView android:textStyle="bold" android:textColor="#535353"
+					android:textSize="20dp" android:text="Fecha probable de parto"
+					android:id="@+id/textViewFPP" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"></TextView>
+				<TextView  android:textSize="16dp" android:textColor="#454545" android:text="" android:id="@+id/fpp_text"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				<TextView android:textStyle="bold" android:textColor="#535353"
+					android:textSize="20dp" android:text="Semanas de embarazo" android:id="@+id/textViewSemanasTranscurridas"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				<TextView android:textSize="16dp" android:textColor="#454545" android:text="" android:id="@+id/st_text"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				<TextView android:textStyle="bold" android:textColor="#535353"
+					android:textSize="20dp" android:text="Semanas faltantes de embarazo"
+					android:id="@+id/textViewSFE" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"></TextView>
+				<TextView android:textSize="16dp" android:textColor="#454545" android:text="" android:id="@+id/sfe_text"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				<TextView android:textStyle="bold" android:textColor="#535353"
+					android:textSize="20dp" android:text="Diagnóstico" android:id="@+id/textViewDiagnostico"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				<TextView android:textSize="16dp" android:textColor="#454545" android:text="" android:id="@+id/diagnostico_text"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+	
+	<LinearLayout android:id="@+id/footer1"
+		android:background="@drawable/borders" android:layout_height="60dp"
+		android:layout_width="fill_parent" android:layout_alignParentBottom="true">
+
+	</LinearLayout>
+</RelativeLayout>

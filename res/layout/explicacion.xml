@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:padding="10dip"
+	android:background="@drawable/list_background">
+	<TextView android:id="@+id/label3"
+		android:text="Si la paciente posee las siguientes mediciones:"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:textColor="#454545" android:shadowColor="#545554"
+		android:textSize="18dp" android:typeface="sans" />
+	<ListView android:id="@+id/ListView02" android:layout_width="fill_parent"
+		android:divider="#DDDDDD" android:dividerHeight="2px"
+		android:layout_height="320dp" android:layout_alignParentLeft="true"
+		android:layout_below="@id/label3" />
+	<TextView android:id="@+id/label4" android:text="Se puede decir entonces que:"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:textColor="#454545" android:shadowColor="#545554"
+		android:textSize="18dp" android:typeface="sans" android:layout_below="@id/ListView02" />
+	<TextView android:id="@+id/diagnosticoLabel" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentRight="true"
+		android:textColor="#454545" android:shadowColor="#545554"
+		android:padding="10dp" android:textSize="12dp" android:typeface="sans"
+		android:layout_marginRight="20dp" android:layout_below="@id/label4"  />
+	<Button android:text="Ok" android:id="@+id/botonExplicacion"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:layout_gravity="center" android:layout_marginTop="5dp"
+		android:layout_below="@id/diagnosticoLabel">
+	</Button>
+</RelativeLayout>

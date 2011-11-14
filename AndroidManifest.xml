@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="edu.tesis.heraproject"
+      android:versionCode="1"
+      android:versionName="1.0">
+<uses-sdk android:minSdkVersion="4" android:targetSdkVersion="9" />
+	<supports-screens android:anyDensity="true" />
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@style/CustomTheme">
+        <activity android:name=".Main"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="modulos.AgregarUsuario"></activity>
+        <activity android:name="vistas.EcosonogramasPaciente"></activity>
+        <activity android:name="vistas.LineaTiempoPaciente"></activity>
+        <activity android:name="vistas.MenuPacientes"></activity>
+        <activity android:name="vistas.PrimerTrimestre"></activity>
+        <activity android:name="vistas.PronosticoPaciente"></activity>
+        <activity android:name="vistas.SegundoTrimestre"></activity>
+        <activity android:name="vistas.TercerTrimestre"></activity>
+        <activity android:name="vistas.TodosEcosonogramas"></activity>
+        <activity android:name="vistas.VisorArchivo"></activity>
+        <activity android:name="vistas.VistaPaciente"></activity>
+        <activity android:name="vistas.VistaPacienteSegundoTercero"></activity>
+        <activity android:name="modulos.AgregarPaciente"></activity>
+        <activity android:name="vistas.VistaPacienteSTPronostico"></activity>
+        <activity android:name="modulos.VerUsuario"></activity>
+        <activity android:name="modulos.EditarUsuario"></activity>
+        <activity android:name="vistas.MenuFamiliares"></activity>
+        <activity android:name="modulos.AgregarFamiliar"></activity>
+        <activity android:name="vistas.VistaPacientePPronostico"></activity>
+
+    </application>
+</manifest>

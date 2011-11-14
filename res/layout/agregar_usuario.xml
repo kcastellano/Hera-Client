@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:gravity="top"
+	android:background="@drawable/main_background" android:layout_height="wrap_content"
+	android:layout_width="wrap_content">
+
+	<LinearLayout android:layout_height="10dp"
+		android:layout_width="fill_parent" android:background="@drawable/nav_shadow" />
+	<RelativeLayout android:layout_width="fill_parent"
+		android:background="@drawable/list_header_background"
+		android:layout_height="wrap_content" android:layout_marginTop="10dp"
+		android:layout_marginRight="10dp" android:layout_marginLeft="10dp">
+		<TextView android:textColor="@color/white" android:id="@+id/textHeader"
+			android:text="Agregar usuario" android:textSize="20dp"
+			android:textStyle="bold" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_alignParentLeft="true"></TextView>
+	</RelativeLayout>
+	<ScrollView android:layout_width="fill_parent"
+		android:background="@drawable/list_background" android:layout_height="fill_parent"
+		android:layout_marginTop="53dp" android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp" android:layout_marginBottom="70dp">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:gravity="top"
+			android:layout_height="fill_parent">
+			<TextView android:text="Cédula" android:textColor="#000000"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<EditText android:id="@+id/cedulaUsuario"
+				android:layout_height="wrap_content" android:layout_width="match_parent"></EditText>
+			<TextView android:text="Nombre" android:textColor="#000000"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<EditText android:id="@+id/nombreUsuario"
+				android:layout_height="wrap_content" android:layout_width="match_parent"></EditText>
+			<TextView android:text="Apellido" android:textColor="#000000"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<EditText android:id="@+id/apellidoUsuario"
+				android:layout_height="wrap_content" android:layout_width="match_parent"></EditText>
+			<TextView android:text="Correo electrónico"
+				android:textColor="#000000" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></TextView>
+			<EditText android:id="@+id/correoUsuario"
+				android:layout_height="wrap_content" android:layout_width="match_parent"></EditText>
+			<TextView android:text="Contraseña" android:textColor="#000000"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<EditText android:id="@+id/contrasenaUsuario"
+				android:layout_height="wrap_content" android:text=""
+				android:layout_width="match_parent" android:password="true"></EditText>
+			<TextView android:text="¿Es usted doctor?"
+				android:textColor="#000000" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></TextView>
+			<Spinner android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:id="@+id/rolUsuario"></Spinner>
+			<Button android:text="Agregar usuario" android:id="@+id/agregarUsuario"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:layout_gravity="center" android:layout_marginTop="5dp">
+			</Button>
+		</LinearLayout>
+	</ScrollView>
+	<LinearLayout android:background="@drawable/borders"
+		android:layout_height="60dp" android:layout_width="fill_parent"
+		android:layout_alignParentBottom="true">
+
+	</LinearLayout>
+
+</RelativeLayout>
+		
